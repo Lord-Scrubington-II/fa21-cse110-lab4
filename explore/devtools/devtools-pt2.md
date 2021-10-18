@@ -1,2 +1,2 @@
 1. The bug comes from the fact that the `value` property of the `Element` object returns a `string`. Hence, `result` become a string concatenation instead of integer addition.
-2. We need to parse an integer from num1 so that num2 can be automatically converted.
+2. We need to parse an integer from num1 so that num2 can be automatically converted, or parse an integer from both for the sake of safety.
